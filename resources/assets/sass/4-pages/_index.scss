@@ -1,39 +1,14 @@
-.index {
-
-    @extend .container;
-
-    &__title {
-        color: $base-color;
-    }
-
-    &__logo {
-        @include centerer(true, false);
-
-        border-radius: 50%;
-
-        box-shadow: 0 0 8px 0 rgba(0, 0, 0, .12),
-                    0 8px 8px 0 rgba(0, 0, 0, .24);
-    }
-
-}
-
-.navbar {
-    box-shadow: 0 0 8px 0 rgba(0, 0, 0, .12),
-                    0 8px 8px 0 rgba(0, 0, 0, .24);
-}
-
 .banner {
-
-    background-color: aqua;
+    background-color: #EEEEEE;
 
     padding: 10px 0px 40px 0px;
-    
+
     &__container {
         @extend .container;
         color: $base-color;
     }
-    
-     &__login {
+
+    &__login {
 
     }
 
@@ -41,9 +16,8 @@
         visibility: hidden;
         display: none;
     }
-    
+
     &__title {
         padding-bottom: 10px;
     }
-
 }

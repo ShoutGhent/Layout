@@ -1,0 +1,33 @@
+.navbar {
+    background-color: #4285F4;
+    border: none;
+
+    &--inverse {
+        @extend .navbar-inverse;
+    }
+
+    &--fixed-top {
+        @extend .navbar-fixed-top;
+    }
+
+    &__brand {
+        @extend .navbar-brand;
+    }
+
+    li {
+        > a {
+            color: #FFFFFF !important;
+            font-weight: normal;
+        }
+
+        &:hover {
+            a {
+                color: #B6B6B6 !important;
+            }
+        }
+
+        &.active a {
+            background-color: #2196F3 !important;
+        }
+    }
+}
