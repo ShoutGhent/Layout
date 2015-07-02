@@ -16,3 +16,34 @@
     }
 
 }
+
+.navbar {
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, .12),
+                    0 8px 8px 0 rgba(0, 0, 0, .24);
+}
+
+.banner {
+
+    background-color: aqua;
+
+    padding: 10px 0px 40px 0px;
+    
+    &__container {
+        @extend .container;
+        color: $base-color;
+    }
+    
+     &__login {
+
+    }
+
+    &__register {
+        visibility: hidden;
+        display: none;
+    }
+    
+    &__title {
+        padding-bottom: 10px;
+    }
+
+}
