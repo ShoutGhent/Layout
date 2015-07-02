@@ -2,7 +2,7 @@
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 
-This is the repository for the layout for *Shout!*.
+This is the repository for the layout for **Shout!**.
 
 ## Install
 
