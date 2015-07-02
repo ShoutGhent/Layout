@@ -12,10 +12,6 @@ $ cd shout-layout
 $ npm install
 ```
 
-## Usage
-
-Register the service provider
-
 ## Change log
 
 Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
