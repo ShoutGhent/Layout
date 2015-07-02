@@ -10,6 +10,7 @@ This is the repository for the layout for **Shout!**.
 $ git clone https://github.com/ShoutGhent/Layout.git shout-layout
 $ cd shout-layout
 $ npm install
+$ node server.js
 ```
 
 ## Change log

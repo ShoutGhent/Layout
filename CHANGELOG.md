@@ -6,6 +6,7 @@ All Notable changes to `Shout - Layout` will be documented in this file
 
 ### Added
 - Initial structure
+- NodeJS Express Server
 
 ### Deprecated
 - Nothing
