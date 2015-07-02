@@ -1,0 +1,9 @@
+.index {
+
+    @extend .container;
+
+    &__title {
+        color: $baseColor;
+    }
+
+}

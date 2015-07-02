@@ -1,14 +1,27 @@
-var express = require('express'),
+var fs = require('fs'),
+    express = require('express'),
     exphbs  = require('express3-handlebars'),
     app = express();
 
+/**
+ * Some Settings
+ */
+app.use(express.static('./public'));
 app.engine('handlebars', exphbs({defaultLayout: 'template'}));
 app.set('view engine', 'handlebars');
 
+
+/**
+ * Routing
+ */
 app.get('/', function(req, res) {
-	res.render('index');
+	res.render('pages/index');
 });
 
+
+/**
+ * Listen for the server
+ */
 var server = app.listen(3000, function() {
 
     var host = server.address().address;
