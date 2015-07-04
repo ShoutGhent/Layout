@@ -25,13 +25,17 @@
         
         button {
             @extend .btn-default;
-            background-color: color("blue",500);
+            background-color: color("cyan",700);
             color: white;
             
             &:hover{
-                background-color: color("blue",700);
+                background-color: color("cyan",900);
                 color: white;
             }
+        }
+        
+        input {
+          border-radius: 0px !important;
         }
         
     }
