@@ -31,6 +31,15 @@
         
         &:hover{
             background-color: color("green",700);
+            color: white;
         }
     }
+}
+
+.body{
+    background: white;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto; /* the bottom margin is the negative value of the footer's height */
 }
