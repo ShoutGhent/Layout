@@ -1,5 +1,6 @@
 .banner {
-    background-color: #EEEEEE;
+    background-color: color("light-green",400);
+    font-family: Courier;
 
     padding: 10px 0px 40px 0px;
 
@@ -17,7 +18,19 @@
         display: none;
     }
 
-    &__title {
+    h3 {
         padding-bottom: 10px;
+        color: white;
+        text-transform: uppercase;
+    }
+    
+    button{
+        @extend .btn;
+        
+        background-color: color("green",600);
+        
+        &:hover{
+            background-color: color("green",700);
+        }
     }
 }
