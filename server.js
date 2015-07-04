@@ -17,6 +17,9 @@ app.set('view engine', 'handlebars');
 app.get('/', function(req, res) {
 	res.render('pages/index');
 });
+app.get('/register', function(req, res) {
+	res.render('pages/register');
+});
 
 
 /**
