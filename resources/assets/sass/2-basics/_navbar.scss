@@ -1,7 +1,7 @@
 .navbar {
     background-color: color("yellow", 300);
     border: none;
-    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.12), 0 20px 50px rgba(0, 0, 0, 0.24);
+    @include card(2);
 
     &--inverse {
         @extend .navbar-inverse;
@@ -14,28 +14,26 @@
     &__brand {
         @extend .navbar-brand;
         font-weight: 900;
-        color: color("blue-grey",700) !important;
-        font-size: 25px !important;
+        color: color("blue-grey", 700) !important;
+        font-size: 2em !important;
     }
 
     li {
         > a {
-            color: #FFFFFF !important;
-            font-weight: normal;
-            background: color("pink", 400) !important;
-            margin: 7px 0px 7px 10px!important;
-            padding: 10px 20px !important;
+            color: white !important;
+            background-color: color("pink", 400);
+            margin: 7px 0px 7px 10px;
+            padding: 10px 20px;
         }
 
-        &:hover {
+        &:hover, &:active, &:focus {
             a {
-                background: color("pink", 600) !important;
+                background-color: color("pink", 600) !important;
             }
         }
 
-        &.active a {
-            //background-color: color("yellow", 200) !important;
-            //color: black !important;
+        &.active > a {
+            background-color: color("pink", 600) !important;
         }
     }
 }

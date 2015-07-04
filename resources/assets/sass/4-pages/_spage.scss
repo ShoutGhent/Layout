@@ -1,44 +1,38 @@
 .spage {
-    
-    font-family: Courier;
-    
+
     &__container {
         @extend .container;
-        color: $base-color;
+
+        margin-top: 30px;
     }
 
-    &__box{
-        background-color: white; 
+    &__box {
+        background-color: white;
         padding: 20px 20px 40px 20px;
-        margin-top: 30px;
-        box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.24);
-        
+
+        @include card(1);
+
         h1 {
             margin-bottom: 20px;
             text-transform: uppercase;
-            color: color("blue",500);
+            color: color("blue", 500);
         }
-        
+
         label {
             text-transform: uppercase;
         }
-        
-        button {
-            @extend .btn-default;
-            background-color: color("cyan",700);
-            color: white;
-            
-            &:hover{
-                background-color: color("cyan",900);
-                color: white;
+
+        input {
+            border-radius: 0px !important;
+            border: 1px solid color("grey", 500);
+
+            &:hover, &:active, &:focus {
+                outline: none;
+                box-shadow: none;
+
+                border: 1px solid color("blue", 600);
             }
         }
-        
-        input {
-          border-radius: 0px !important;
-        }
-        
+
     }
-    
-    
 }

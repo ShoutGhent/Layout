@@ -1,3 +1,13 @@
 .register{
-    @extend .spage;
+
+    &__card {
+        @extend .spage__container;
+        @extend .spage__box;
+
+        form {
+            @extend .col-md-10;
+            @extend .col-md-offset-1;
+        }
+    }
+
 }
