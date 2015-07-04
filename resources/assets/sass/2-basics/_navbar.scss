@@ -1,7 +1,7 @@
 .navbar {
-    background-color: #4285F4;
+    background-color: color("yellow", 300);
     border: none;
-    box-shadow: 0px 10px 30px #888888;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.12), 0 20px 50px rgba(0, 0, 0, 0.24);
 
     &--inverse {
         @extend .navbar-inverse;
@@ -13,12 +13,16 @@
 
     &__brand {
         @extend .navbar-brand;
+        font-weight: 900;
+        color: color("blue-grey",700) !important;
+        font-size: 25px !important;
     }
 
     li {
         > a {
             color: #FFFFFF !important;
             font-weight: normal;
+            background: color("blue", 200) !important;
         }
 
         &:hover {
@@ -28,7 +32,8 @@
         }
 
         &.active a {
-            background-color: #2196F3 !important;
+            //background-color: color("yellow", 200) !important;
+            //color: black !important;
         }
     }
 }

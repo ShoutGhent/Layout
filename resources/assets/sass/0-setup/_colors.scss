@@ -309,6 +309,19 @@ $grey: (
         900: #212121
 );
 
+$beige: (
+        50: #fafafa,
+        100: #f5f5f5,
+        200: #FAF0E6,
+        300: #FFF8DC, //linnen
+        400: #F5DEB3, //wheat
+        500: #FFDEAD, //geler
+        600: #757575,
+        700: #616161,
+        800: #424242,
+        900: #212121
+);
+
 $colors: (
         "red": $red,
         "pink": $pink,
@@ -328,7 +341,8 @@ $colors: (
         "deep-orange": $deep-orange,
         "brown": $brown,
         "blue-grey": $blue-grey,
-        "grey": $grey
+        "grey": $grey,
+        "beige": $beige
 );
 
 @function color($color, $type) {

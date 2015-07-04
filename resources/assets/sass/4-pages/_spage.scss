@@ -8,18 +8,30 @@
     }
 
     &__box{
-        background: yellow;
+        background-color: white; 
         padding: 20px 20px 40px 20px;
         margin-top: 30px;
-        box-shadow: 5px 5px 20px #888888;
+        box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.24);
         
         h1 {
-            margin-bottom: 10px;
+            margin-bottom: 20px;
             text-transform: uppercase;
+            color: color("blue",500);
         }
         
         label {
             text-transform: uppercase;
+        }
+        
+        button {
+            @extend .btn-default;
+            background-color: color("blue",500);
+            color: white;
+            
+            &:hover{
+                background-color: color("blue",700);
+                color: white;
+            }
         }
         
     }
