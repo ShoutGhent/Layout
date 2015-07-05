@@ -42,7 +42,7 @@
   @if $depth < 1 {
     box-shadow: none;
   } @else if $depth > 5 {
-    @warn "Invalid $depth `#{$depth}` for mixin `card`.";
+    $depth: 5;
   } @else {
     box-shadow: bottom-shadow($depth), top-shadow($depth);
   }
