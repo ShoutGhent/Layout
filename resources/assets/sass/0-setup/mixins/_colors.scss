@@ -331,7 +331,7 @@ $colors: (
         "grey": $grey
 );
 
-@function color($color, $type) {
+@function color($color, $type: 500) {
     @if map_has_key($colors, $color) {
         $curr_color: map_get($colors, $color);
         @if map_has_key($curr_color, $type) {

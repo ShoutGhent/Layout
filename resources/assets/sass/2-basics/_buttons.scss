@@ -9,13 +9,13 @@
         background-color: color($color, 600);
 
         &:hover, &:active, &:focus {
-            @if (lightness(color($color, 500)) > 60) {
+            @if (lightness(color($color)) > 60) {
                 color: black;
             } @else {
                 color: white;
             }
 
-            background-color: color($color, 500);
+            background-color: color($color);
             outline: none !important;
         }
     }

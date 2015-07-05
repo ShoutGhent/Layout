@@ -15,7 +15,7 @@
         h1 {
             margin-bottom: 20px;
             text-transform: uppercase;
-            color: color("blue", 500);
+            color: color("blue");
         }
 
         label {
@@ -24,7 +24,7 @@
 
         input {
             border-radius: 0px !important;
-            border: 1px solid color("grey", 500);
+            border: 1px solid color("grey");
 
             &:hover, &:active, &:focus {
                 outline: none;
