@@ -1,5 +1,14 @@
 .shout{
     @extend .card;
+
+    &.small {
+        min-height: 200px;
+        height: 100% !important;
+    }
+
+    &-content {
+        height: 100% !important;
+    }
     
     
     &-header{

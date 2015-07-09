@@ -14409,6 +14409,13 @@ p {
 footer.page-footer {
   margin: 0; }
 
+.shout.small {
+  min-height: 200px;
+  height: 100% !important; }
+
+.shout-content {
+  height: 100% !important; }
+
 .shout-header {
   padding: 20px; }
   .shout-header .avatar {
