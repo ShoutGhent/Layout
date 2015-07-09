@@ -13,29 +13,21 @@ nav .brand-logo {
 
 
 nav .brand-logo {
-    
-    div.box {
-        position: absolute;
-        top: 50%;
-        left: 50%;
+    position: absolute;
+    top: 50%;
+    width: 100px;
+    height: auto;
 
-        width: 100%;
-        height: auto;
-
-        max-width: 700px;
-
-        transform: translate(-50%, -50%);
-    }
+    transform: translate(0, -50%);
 
     svg {
-        padding: 10px;
-    }
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
 
-    path {
-        stroke: #222743;
-        stroke-width: 3px;
-
-        fill: #ffffff;
+        path {
+            fill: white;
+        }
     }
     
 }
