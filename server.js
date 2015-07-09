@@ -7,7 +7,7 @@ var fs = require('fs'),
  * Some Settings
  */
 app.use(express.static('./public'));
-app.engine('handlebars', exphbs({defaultLayout: 'template'}));
+app.engine('handlebars', exphbs({defaultLayout: 'template-2'}));
 app.set('view engine', 'handlebars');
 
 
@@ -17,8 +17,17 @@ app.set('view engine', 'handlebars');
 app.get('/', function(req, res) {
 	res.render('pages/index');
 });
+
 app.get('/register', function(req, res) {
 	res.render('pages/register');
+});
+
+app.get('/login', function(req, res) {
+	res.render('pages/login');
+});
+
+app.get('/start', function(req, res) {
+	res.render('pages/start');
 });
 
 

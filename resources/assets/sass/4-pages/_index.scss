@@ -1,52 +1,87 @@
-.index {
-    .banner {
-        background-color: color("light-green", 400) !important;
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
 
-        padding: 30px 0;
+nav ul a,
+nav .brand-logo {
+  
+}
 
-        &__container {
-            @extend .container;
 
-            color: $base-color;
+nav .brand-logo {
+    
+    div.box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
 
-            form {
-                @extend .col-md-offset-8;
-                @extend .col-md-4;
+        width: 100%;
+        height: auto;
 
-                @include card(1);
+        max-width: 700px;
 
-                padding: 10px 20px;
-            }
-        }
-
-        &__login {
-
-        }
-
-        &__register {
-
-        }
-
-        h3 {
-            color: white;
-            text-transform: uppercase;
-        }
+        transform: translate(-50%, -50%);
     }
 
-    section {
-        min-height: 200px;
-
-        .content {
-            @extend .container;
-            padding: 10px;
-        }
-
-        &:nth-child(even) {
-            background-color: color("light-green", 50);
-        }
-
-        &:nth-child(odd) {
-            background-color: color("light-green", 100);
-        }
+    svg {
+        padding: 10px;
     }
+
+    path {
+        stroke: #222743;
+        stroke-width: 3px;
+
+        fill: #ffffff;
+    }
+    
+}
+
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  //color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
 }

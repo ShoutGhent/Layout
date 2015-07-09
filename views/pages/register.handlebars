@@ -1,23 +1,23 @@
-<div class="register">
-
-    <div class="register__card">
-        <h1>Registreren</h1>
+<div class="container">
+    <div class="section">
+        <h1 class="teal-text">Registreren</h1>
 
         <form>
-            <div class="form-group">
-                <label for="email">E-mailadres</label>
-                <input type="email" class="form-control" id="email" name="email" placeholder="E-mail">
+            
+            <input type="email" id="email" name="email" placeholder="E-mail">
+
+            <input type="password" id="password" name="password" placeholder="Wachtwoord">
+
+            <input type="password" id="password_repeat" name="password_repeat" placeholder="Herhaal wachtwoord">
+            
+            <div class="right-align">
+                <button class="btn waves-effect waves-light" type="submit" name="action">Ga verder
+                    <i class="material-icons">send</i>
+                </button>
             </div>
-            <div class="form-group">
-                <label for="password">Wachtwoord</label>
-                <input type="password" class="form-control" id="password" name="password" placeholder="Wachtwoord">
-            </div>
-            <div class="form-group">
-                <label for="password_repeat">Herhaal wachtwoord</label>
-                <input type="password" class="form-control" id="password_repeat" name="password_repeat" placeholder="Herhaal wachtwoord">
-            </div>
-            <button type="submit" class="btn btn--blue btn--card btn--card--depth-1 pull-right">Ga Verder <span class="fa fa-chevron-right"></span></button>
+            
+            
         </form>
     </div>
-
 </div>
+
