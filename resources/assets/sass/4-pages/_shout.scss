@@ -1,11 +1,6 @@
 .shout{
     @extend .card;
 
-    &.small {
-        min-height: 200px;
-        height: 100% !important;
-    }
-
     &-content {
         height: 100% !important;
     }
@@ -43,13 +38,10 @@
     
     &-content{
         @extend .card-content;
-
     }
     
     &-footer{
-    
-      padding-top:10px;
-               
+                       
       a {
           color: #ffab40;
           margin-right: 20px;

@@ -30,6 +30,10 @@ app.get('/start', function(req, res) {
 	res.render('pages/start');
 });
 
+app.get('/settings', function(req, res) {
+	res.render('pages/settings');
+});
+
 
 /**
  * Listen for the server

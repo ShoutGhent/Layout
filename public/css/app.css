@@ -8209,7 +8209,20 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   width: 60px; }
 
 .dropdown-content {
-  top: 70px !important; }
+  top: 70px !important;
+  width: 200px !important; }
+
+.badge.overlay {
+  display: block !important;
+  position: relative;
+  background: none !important;
+  left: 0;
+  top: 0;
+  padding: 0px !important;
+  margin-top: -50px !important;
+  height: 20px !important;
+  width: 20px !important;
+  background: red; }
 
 .img-1 {
   background-color: transparent;
@@ -14409,10 +14422,6 @@ p {
 footer.page-footer {
   margin: 0; }
 
-.shout.small {
-  min-height: 200px;
-  height: 100% !important; }
-
 .shout-content {
   height: 100% !important; }
 
@@ -14424,18 +14433,20 @@ footer.page-footer {
   .shout-header .shout-title {
     padding-left: 10px; }
 
-.shout-footer {
-  padding-top: 10px; }
-  .shout-footer a {
-    color: #ffab40;
-    margin-right: 20px;
-    transition: color 0.3s ease;
-    text-transform: uppercase; }
-  .shout-footer a:hover {
-    color: #ffd8a6; }
+.shout-footer a {
+  color: #ffab40;
+  margin-right: 20px;
+  transition: color 0.3s ease;
+  text-transform: uppercase; }
+
+.shout-footer a:hover {
+  color: #ffd8a6; }
 
 .shout-progress {
   position: absolute;
   bottom: 0;
   width: 100%;
   height: 11px; }
+
+.settings .tabs-content {
+  padding: 20px; }
