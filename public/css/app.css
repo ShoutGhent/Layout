@@ -8205,6 +8205,12 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   .picker--time .picker__box {
     margin-bottom: 5em; } }
 
+.brand-logo {
+  width: 60px; }
+
+.dropdown-content {
+  top: 70px !important; }
+
 .img-1 {
   background-color: transparent;
   width: 1px !important;
@@ -14412,7 +14418,7 @@ footer.page-footer {
     padding-left: 10px; }
 
 .shout-footer {
-  padding: 20px; }
+  padding-top: 10px; }
   .shout-footer a {
     color: #ffab40;
     margin-right: 20px;
