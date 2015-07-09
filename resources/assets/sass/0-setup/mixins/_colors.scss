@@ -1,4 +1,5 @@
-$red: (
+@function colour($color, $type: 500) {
+    $red: (
         50: #FFEBEE,
         100: #FFCDD2,
         200: #EF9A9A,
@@ -13,9 +14,9 @@ $red: (
         "A200": #FF5252,
         "A400": #FF1744,
         "A700": #D50000
-);
+    );
 
-$pink: (
+    $pink: (
         50: #fce4ec,
         100: #f8bbd0,
         200: #f48fb1,
@@ -30,9 +31,9 @@ $pink: (
         "A200": #ff4081,
         "A400": #f50057,
         "A700": #c51162
-);
+    );
 
-$purple: (
+    $purple: (
         50: #f3e5f5,
         100: #e1bee7,
         200: #ce93d8,
@@ -47,9 +48,9 @@ $purple: (
         "A200": #e040fb,
         "A400": #d500f9,
         "A700": #aa00ff
-);
+    );
 
-$deep-purple: (
+    $deep-purple: (
         50: #ede7f6,
         100: #d1c4e9,
         200: #b39ddb,
@@ -64,9 +65,9 @@ $deep-purple: (
         "A200": #7c4dff,
         "A400": #651fff,
         "A700": #6200ea
-);
+    );
 
-$indigo: (
+    $indigo: (
         50: #e8eaf6,
         100: #c5cae9,
         200: #9fa8da,
@@ -81,9 +82,9 @@ $indigo: (
         "A200": #536dfe,
         "A400": #3d5afe,
         "A700": #304ffe
-);
+    );
 
-$blue: (
+    $blue: (
         50: #E3F2FD,
         100: #BBDEFB,
         200: #90CAF9,
@@ -98,9 +99,9 @@ $blue: (
         "A200": #448AFF,
         "A400": #2979FF,
         "A700": #2962FF
-);
+    );
 
-$light-blue: (
+    $light-blue: (
         50: #e1f5fe,
         100: #b3e5fc,
         200: #81d4fa,
@@ -115,9 +116,9 @@ $light-blue: (
         "A200": #40c4ff,
         "A400": #00b0ff,
         "A700": #0091ea
-);
+    );
 
-$cyan: (
+    $cyan: (
         50: #e0f7fa,
         100: #b2ebf2,
         200: #80deea,
@@ -132,9 +133,9 @@ $cyan: (
         "A200": #18ffff,
         "A400": #00e5ff,
         "A700": #00b8d4
-);
+    );
 
-$teal: (
+    $teal: (
         50: #e0f2f1,
         100: #b2dfdb,
         200: #80cbc4,
@@ -149,9 +150,9 @@ $teal: (
         "A200": #64ffda,
         "A400": #1de9b6,
         "A700": #00bfa5
-);
+    );
 
-$green: (
+    $green: (
         50: #E8F5E9,
         100: #C8E6C9,
         200: #A5D6A7,
@@ -166,9 +167,9 @@ $green: (
         "A200": #69F0AE,
         "A400": #00E676,
         "A700": #00C853
-);
+    );
 
-$light-green: (
+    $light-green: (
         50: #f1f8e9,
         100: #dcedc8,
         200: #c5e1a5,
@@ -183,9 +184,9 @@ $light-green: (
         "A200": #b2ff59,
         "A400": #76ff03,
         "A700": #64dd17
-);
+    );
 
-$lime: (
+    $lime: (
         50: #f9fbe7,
         100: #f0f4c3,
         200: #e6ee9c,
@@ -200,9 +201,9 @@ $lime: (
         "A200": #eeff41,
         "A400": #c6ff00,
         "A700": #aeea00
-);
+    );
 
-$yellow: (
+    $yellow: (
         50: #fffde7,
         100: #fff9c4,
         200: #fff59d,
@@ -217,9 +218,9 @@ $yellow: (
         "A200": #ffff00,
         "A400": #ffea00,
         "A700": #ffd600
-);
+    );
 
-$amber: (
+    $amber: (
         50: #fff8e1,
         100: #ffecb3,
         200: #ffe082,
@@ -234,9 +235,9 @@ $amber: (
         "A200": #ffd740,
         "A400": #ffc400,
         "A700": #ffab00
-);
+    );
 
-$orange: (
+    $orange: (
         50: #fff3e0,
         100: #ffe0b2,
         200: #ffcc80,
@@ -251,9 +252,9 @@ $orange: (
         "A200": #ffab40,
         "A400": #ff9100,
         "A700": #ff6d00
-);
+    );
 
-$deep-orange: (
+    $deep-orange: (
         50: #fbe9e7,
         100: #ffccbc,
         200: #ffab91,
@@ -268,9 +269,9 @@ $deep-orange: (
         "A200": #ff6e40,
         "A400": #ff3d00,
         "A700": #dd2c00
-);
+    );
 
-$brown: (
+    $brown: (
         50: #efebe9,
         100: #d7ccc8,
         200: #bcaaa4,
@@ -281,9 +282,9 @@ $brown: (
         700: #5d4037,
         800: #4e342e,
         900: #3e2723
-);
+    );
 
-$blue-grey: (
+    $blue-grey: (
         50: #eceff1,
         100: #cfd8dc,
         200: #b0bec5,
@@ -294,9 +295,9 @@ $blue-grey: (
         700: #455a64,
         800: #37474f,
         900: #263238
-);
+    );
 
-$grey: (
+    $grey: (
         50: #fafafa,
         100: #f5f5f5,
         200: #eeeeee,
@@ -307,9 +308,9 @@ $grey: (
         700: #616161,
         800: #424242,
         900: #212121
-);
+    );
 
-$colors: (
+    $colours: (
         "red": $red,
         "pink": $pink,
         "purple": $purple,
@@ -331,9 +332,8 @@ $colors: (
         "grey": $grey
 );
 
-@function color($color, $type: 500) {
-    @if map_has_key($colors, $color) {
-        $curr_color: map_get($colors, $color);
+    @if map_has_key($colours, $color) {
+        $curr_color: map_get($colours, $color);
         @if map_has_key($curr_color, $type) {
             @return map_get($curr_color, $type);
         }

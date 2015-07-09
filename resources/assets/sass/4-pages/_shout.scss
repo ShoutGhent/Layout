@@ -53,13 +53,15 @@
     }
     
     &-progress{
-        
+        position: absolute;
+        bottom: 0;
         width: 100%;
-        height: 10px;
+
+        height: 4px;
         
         .determinate{
-            background: red;
-            width: 70%;
+            height: 100%;
+            background-color: colour("teal", 300);
         }
     }
 }
