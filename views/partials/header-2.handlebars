@@ -1,15 +1,24 @@
+<ul id="dropdown1" class="dropdown-content">
+  <li><a href="#!">one</a></li>
+  <li><a href="#!">two</a></li>
+  <li class="divider"></li>
+  <li><a href="#!">three</a></li>
+</ul>
+
+
 <nav class="teal" role="navigation">
     <div class="nav-wrapper container">
-      <a href="#" class="brand-logo">
+      <a href="/" class="brand-logo">
       {{> logo }}  
       </a>
       <ul class="right hide-on-med-and-down">
         <li><a href="/search"><i class="material-icons">search</i></a></li>
         <li><a href="/start"><i class="material-icons">view_module</i></a></li>
         <li><a href="/refresh"><i class="material-icons">refresh</i></a></li>
-        <li><a href="mobile.html"><i class="material-icons">more_vert</i></a></li>
+        <!-- Dropdown Trigger -->
+        <li><a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="material-icons right">more_vert</i> Drop </li>
       </ul>
-        
+                
       <ul id="nav-mobile" class="side-nav">
         <li><a href="/">Start</a></li>
         <li><a href="/login">Log in</a></li>
@@ -19,3 +28,4 @@
         
     </div>
 </nav>
+
