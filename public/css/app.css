@@ -14375,6 +14375,15 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
  *
  * Made By MaterializeCSS.com
  */
+.navbar-input {
+  margin: 0 !important;
+  padding: 0 5px !important;
+  width: 275px !important; }
+
+#search {
+  display: none;
+  transition: width 2s ease-in-out !important; }
+
 nav .brand-logo {
   position: absolute;
   top: 50%;

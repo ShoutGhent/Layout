@@ -11,6 +11,16 @@ nav .brand-logo {
   
 }
 
+.navbar-input {
+    margin: 0 !important;
+    padding: 0 5px !important;
+    width: 275px !important;
+}
+
+#search {
+    display: none;
+    transition: width 2s ease-in-out !important;
+}
 
 nav .brand-logo {
     position: absolute;

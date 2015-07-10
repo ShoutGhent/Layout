@@ -7,7 +7,7 @@ var fs = require('fs'),
  * Some Settings
  */
 app.use(express.static('./public'));
-app.engine('handlebars', exphbs({defaultLayout: 'template-1'}));
+app.engine('handlebars', exphbs({defaultLayout: 'template-2'}));
 app.set('view engine', 'handlebars');
 
 
